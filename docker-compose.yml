@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  apache:
+    container_name: myapp
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - 3001:80
+    volumes:
+      - ./src:/var/www/html
+
+
