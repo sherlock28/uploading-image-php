@@ -12,3 +12,4 @@ Sending base64 encoded image to a php api
     ```
     http://localhost:3001
     ```
+3. Enjoy it!
